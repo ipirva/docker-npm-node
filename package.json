@@ -1,0 +1,19 @@
+{
+  "name": "docker-image-node-variables",
+  "version": "1.0.0",
+  "description": "Simple NodeJS app for Load Balancing test purposes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ipirva/docker-npm-node"
+  },
+  "author": "Ionut Pirva",
+  "license": "MIT",
+  "homepage": "https://github.com/ipirva/docker-npm-node/blob/master/README.md",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
+}
