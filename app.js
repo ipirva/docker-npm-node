@@ -10,13 +10,7 @@ server.route({
     handler: async (req, h) => {
        let obj = {
          hostname: os.hostname(),
-         platform: os.platform(),
          uptime: os.uptime(),
-         loadavg: os.loadavg(),
-         mem: {
-           free: os.freemem(),
-           total: os.totalmem()
-         }
        }
        return obj;
     }
